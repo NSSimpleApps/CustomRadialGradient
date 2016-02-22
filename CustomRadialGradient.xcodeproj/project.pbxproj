@@ -16,6 +16,7 @@
 		B5B604021C7AEDD600B198E5 /* RadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604011C7AEDD600B198E5 /* RadialGradientLayer.m */; };
 		B5B604051C7AEDEC00B198E5 /* RadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604041C7AEDEC00B198E5 /* RadialGradientView.m */; };
 		B5B604091C7B338A00B198E5 /* radial_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B604081C7B338A00B198E5 /* radial_gradient.png */; };
+		B5B6040B1C7B341C00B198E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B6040A1C7B341C00B198E5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B5B604031C7AEDEC00B198E5 /* RadialGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradientView.h; sourceTree = "<group>"; };
 		B5B604041C7AEDEC00B198E5 /* RadialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientView.m; sourceTree = "<group>"; };
 		B5B604081C7B338A00B198E5 /* radial_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radial_gradient.png; sourceTree = "<group>"; };
+		B5B6040A1C7B341C00B198E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 		B5B603E81C7AEAF700B198E5 /* CustomRadialGradient */ = {
 			isa = PBXGroup;
 			children = (
+				B5B6040A1C7B341C00B198E5 /* README.md */,
 				B5B604081C7B338A00B198E5 /* radial_gradient.png */,
 				B5B603EC1C7AEAF700B198E5 /* AppDelegate.h */,
 				B5B603ED1C7AEAF700B198E5 /* AppDelegate.m */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5B6040B1C7B341C00B198E5 /* README.md in Sources */,
 				B5B604051C7AEDEC00B198E5 /* RadialGradientView.m in Sources */,
 				B5B604021C7AEDD600B198E5 /* RadialGradientLayer.m in Sources */,
 				B5B603F11C7AEAF700B198E5 /* ViewController.m in Sources */,
