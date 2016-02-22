@@ -8,6 +8,13 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-@interface RadialGradientLayer : CALLayer
+@class UIColor;
+
+@interface RadialGradientLayer : CALayer
+
+@property (nonatomic, strong) UIColor *gradientColor; // default is [UIColor clearColor]
+
+@property (nonatomic, assign) CGFloat startAngle; // default is 0
+@property (nonatomic, assign) CGFloat endAngle; // default is 0
 
 @end
