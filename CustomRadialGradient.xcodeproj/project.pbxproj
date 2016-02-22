@@ -15,6 +15,7 @@
 		B5B603F91C7AEAF700B198E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B603F71C7AEAF700B198E5 /* LaunchScreen.storyboard */; };
 		B5B604021C7AEDD600B198E5 /* RadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604011C7AEDD600B198E5 /* RadialGradientLayer.m */; };
 		B5B604051C7AEDEC00B198E5 /* RadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604041C7AEDEC00B198E5 /* RadialGradientView.m */; };
+		B5B604071C7B2CFE00B198E5 /* gradients.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B604061C7B2CFE00B198E5 /* gradients.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B5B604011C7AEDD600B198E5 /* RadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientLayer.m; sourceTree = "<group>"; };
 		B5B604031C7AEDEC00B198E5 /* RadialGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialGradientView.h; sourceTree = "<group>"; };
 		B5B604041C7AEDEC00B198E5 /* RadialGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialGradientView.m; sourceTree = "<group>"; };
+		B5B604061C7B2CFE00B198E5 /* gradients.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradients.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		B5B603E81C7AEAF700B198E5 /* CustomRadialGradient */ = {
 			isa = PBXGroup;
 			children = (
+				B5B604061C7B2CFE00B198E5 /* gradients.png */,
 				B5B603EC1C7AEAF700B198E5 /* AppDelegate.h */,
 				B5B603ED1C7AEAF700B198E5 /* AppDelegate.m */,
 				B5B603EF1C7AEAF700B198E5 /* ViewController.h */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B603F91C7AEAF700B198E5 /* LaunchScreen.storyboard in Resources */,
+				B5B604071C7B2CFE00B198E5 /* gradients.png in Resources */,
 				B5B603F61C7AEAF700B198E5 /* Assets.xcassets in Resources */,
 				B5B603F41C7AEAF700B198E5 /* Main.storyboard in Resources */,
 			);

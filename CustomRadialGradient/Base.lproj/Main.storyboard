@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Radial gradient-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -44,7 +44,7 @@
                             <constraint firstItem="saZ-nl-NTM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="YHc-rg-qSm"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="cVd-nl-ECh"/>
+                    <navigationItem key="navigationItem" title="Radial gradient" id="cVd-nl-ECh"/>
                     <connections>
                         <outlet property="blueView" destination="0lw-XE-XRn" id="3iF-ED-tWK"/>
                         <outlet property="greenView" destination="IU2-pF-DLz" id="Vi8-PO-Baz"/>
