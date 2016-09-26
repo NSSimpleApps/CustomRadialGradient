@@ -15,8 +15,6 @@
 		B5B603F91C7AEAF700B198E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B603F71C7AEAF700B198E5 /* LaunchScreen.storyboard */; };
 		B5B604021C7AEDD600B198E5 /* RadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604011C7AEDD600B198E5 /* RadialGradientLayer.m */; };
 		B5B604051C7AEDEC00B198E5 /* RadialGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B604041C7AEDEC00B198E5 /* RadialGradientView.m */; };
-		B5B604091C7B338A00B198E5 /* radial_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B604081C7B338A00B198E5 /* radial_gradient.png */; };
-		B5B6040B1C7B341C00B198E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5B6040A1C7B341C00B198E5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,7 +119,7 @@
 		B5B603DE1C7AEAF700B198E5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = NSSimpleApps;
 				TargetAttributes = {
 					B5B603E51C7AEAF700B198E5 = {
@@ -152,7 +150,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B604091C7B338A00B198E5 /* radial_gradient.png in Resources */,
 				B5B603F91C7AEAF700B198E5 /* LaunchScreen.storyboard in Resources */,
 				B5B603F61C7AEAF700B198E5 /* Assets.xcassets in Resources */,
 				B5B603F41C7AEAF700B198E5 /* Main.storyboard in Resources */,
@@ -166,7 +163,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5B6040B1C7B341C00B198E5 /* README.md in Sources */,
 				B5B604051C7AEDEC00B198E5 /* RadialGradientView.m in Sources */,
 				B5B604021C7AEDD600B198E5 /* RadialGradientLayer.m in Sources */,
 				B5B603F11C7AEAF700B198E5 /* ViewController.m in Sources */,
@@ -210,8 +206,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -233,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,8 +252,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
