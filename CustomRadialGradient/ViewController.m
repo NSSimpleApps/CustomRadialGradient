@@ -40,9 +40,4 @@
     blueGradientLayer.endAngle = M_PI/3;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
