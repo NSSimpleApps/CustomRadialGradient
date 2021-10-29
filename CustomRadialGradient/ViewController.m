@@ -12,32 +12,47 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet RadialGradientView *redView;
-@property (weak, nonatomic) IBOutlet RadialGradientView *greenView;
-@property (weak, nonatomic) IBOutlet RadialGradientView *blueView;
-
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
-    
     [super viewDidLoad];
     
-    RadialGradientLayer *redGradientLayer = (RadialGradientLayer *)self.redView.layer;
+    self.title = @"Radial gradient";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    __auto_type redView = [RadialGradientView new];
+    __auto_type redGradientLayer = (RadialGradientLayer *)redView.layer;
+    redGradientLayer.opaque = NO;
     redGradientLayer.gradientColor = [UIColor redColor];
     redGradientLayer.startAngle = M_PI/3;
     redGradientLayer.endAngle = -M_PI/3;
     
-    RadialGradientLayer *greenGradientLayer = (RadialGradientLayer *)self.greenView.layer;
+    __auto_type greenView = [RadialGradientView new];
+    __auto_type greenGradientLayer = (RadialGradientLayer *)greenView.layer;
+    greenGradientLayer.opaque = NO;
     greenGradientLayer.gradientColor = [UIColor greenColor];
     greenGradientLayer.startAngle = -M_PI/3;
     greenGradientLayer.endAngle = M_PI;
     
-    RadialGradientLayer *blueGradientLayer = (RadialGradientLayer *)self.blueView.layer;
+    __auto_type blueView = [RadialGradientView new];
+    __auto_type blueGradientLayer = (RadialGradientLayer *)blueView.layer;
+    blueGradientLayer.opaque = NO;
     blueGradientLayer.gradientColor = [UIColor blueColor];
     blueGradientLayer.startAngle = -M_PI;
     blueGradientLayer.endAngle = M_PI/3;
+    
+    __auto_type stackView = [[UIStackView alloc] initWithArrangedSubviews:@[redView, greenView, blueView]];
+    stackView.axis = UILayoutConstraintAxisVertical;
+    stackView.distribution = UIStackViewDistributionFillEqually;
+    stackView.translatesAutoresizingMaskIntoConstraints = NO;
+    [self.view addSubview:stackView];
+    __auto_type layoutMarginsGuide = self.view.layoutMarginsGuide;
+    [[stackView.topAnchor constraintEqualToAnchor:layoutMarginsGuide.topAnchor] setActive:YES];
+    [[stackView.bottomAnchor constraintEqualToAnchor:layoutMarginsGuide.bottomAnchor] setActive:YES];
+    [[stackView.leftAnchor constraintEqualToAnchor:layoutMarginsGuide.leftAnchor] setActive:YES];
+    [[stackView.rightAnchor constraintEqualToAnchor:layoutMarginsGuide.rightAnchor] setActive:YES];
 }
 
 @end

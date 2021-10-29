@@ -12,7 +12,6 @@
 @implementation RadialGradientView
 
 + (Class)layerClass {
-    
     return [RadialGradientLayer class];
 }
 
